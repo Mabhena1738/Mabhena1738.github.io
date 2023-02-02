@@ -23,7 +23,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color: black;">
       <div class="container">
         <a href="#" class="navbar-brand">GrandStruct Projects Private Limited</a>
 
@@ -57,20 +57,51 @@
         </div>
       </div>
     </nav>
-
+    <!-- Navbar -->
     <!-- Welcome -->
-    <section
-      class="HomeParallax" style="width: 100%; background-image: url(img/pic.jpg);"
-    >
-        <div class="d-sm-flex align-items-center justify-content-between">
-          <div class="container">
-            
+    <section style="width: 100%">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/pic.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>GrandStruct</h5>
+            <p>You dream it, We help you live it!.</p>
           </div>
         </div>
+        <div class="carousel-item">
+          <img src="img/pic1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>GrandStruct</h5>
+            <p>You dream it, We help you live it!.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>GrandStruct</h5>
+            <p>You dream it, We help you live it!.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     </section>
-
+    <!-- Welcome -->
     <!-- Newsletter -->
-    <section class="bg-dark text-light p-5" id="who">
+    <section class="text-light p-5" id="who">
       <div class="container">
         <div class="d-ms-flex justify-content-between align-items-center">
           <h1>Who is <span class="text-warning"> GrandStruct </span></h1>
@@ -89,23 +120,24 @@
         </div>
       </div>
     </section>
-
+    <!-- Newsletter -->
     <!-- Boxes -->
     <section class="p-5" id = "services">
       <div class="container">
-        <div class="row text-center g-4">
+        <div class="row text-center g-3">
           <div class="col-md">
-            <div class="card bg-dark text-light">
+            <div class="card text-light" style="background-color: black;">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <i class="bi bi-graph-up"></i>
                 </div>
-                <h3 class="card-title mb-3">Virtual</h3>
+                <h3 class="card-title mb-3">Feasibility Studies</h3>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                  We develop your needs into a brief, apply creative solutions and 
+                  subject them to a rigorous design process. A feasibility study tests 
+                  these options against the constraints of time, budget, regulations and 
+                  practicalities to establish the best way forward.
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
               </div>
             </div>
           </div>
@@ -113,38 +145,40 @@
             <div class="card bg-secondary text-light">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-person-square"></i>
+                  <i class="bi bi-house"></i>
                 </div>
-                <h3 class="card-title mb-3">Hybrid</h3>
+                <h3 class="card-title mb-3">Conceptual design</h3>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                  The process of conceptual design requires keen coordination between 
+                  multiple departments. We converge inputs from our designers, engineers, 
+                  cost managers and stakeholders to ensure the project captures your vision.
                 </p>
-                <a href="#" class="btn btn-dark">Read More</a>
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-dark text-light">
+            <div class="card text-light" style="background-color: black;">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
-                  <i class="bi bi-people"></i>
+                  <i class="bi bi-hammer"></i>
                 </div>
-                <h3 class="card-title mb-3">In Person</h3>
+                <h3 class="card-title mb-3">Technical design</h3>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                  This critical phase transforms the design intent into a package ready for 
+                  construction. Our designers, technicians and engineers work collaboratively 
+                  to produce a comprehensive tender package. Our cost managers feed into the 
+                  process to ensure budgets are maintained and appropriate procurement strategies 
+                  are considered to help you achieve best value.
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <!-- Boxes -->
     <!-- Portifolio -->
-    <section id="why" class="bg-dark text-light p-5">
+    <section id="why" class="text-light p-5">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
@@ -189,9 +223,9 @@
         </div>
       </div>
     </section>
-
+    <!-- Portifolio -->
     <!-- Engineers -->
-    <section id="instructors" class="p-5 bg-dark text-dark">
+    <section id="instructors" class="p-5 text-dark">
       <div class="container">
         <h2 class="text-center text-white">Our Engineers</h2>
         <p class="lead text-center text-white mb-5">
@@ -246,13 +280,12 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-
-    <!-- Contact & Map -->
-    <section class="p-5" id="contact">
+    <!-- Engineers -->
+    <!-- Contact Us-->
+    <section class="p-5 bg-light" id="contact">
       <div class="container">
         <div class="row g-4">
           <div class="col-md">
@@ -277,15 +310,12 @@
               </li>
             </ul>
           </div>
-          <div class="col-md">
-            <div id="map"></div>
-          </div>
         </div>
       </div>
     </section>
-
+    <!-- Contact Us-->
     <!-- Footer -->
-    <footer class="p-5 bg-dark text-white text-center position-relative">
+    <footer class="p-5 text-white text-center position-relative" style="background-color: black;">
       <div class="container">
         <p class="lead">Copyright &copy; 2023 GrandStruct</p>
 
@@ -294,63 +324,7 @@
         </a>
       </div>
     </footer>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="enroll"
-      tabindex="-1"
-      aria-labelledby="enrollLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <p class="lead">Fill out this form and we will get back to you</p>
-            <form>
-              <div class="mb-3">
-                <label for="first-name" class="col-form-label">
-                  First Name:
-                </label>
-                <input type="text" class="form-control" id="first-name" />
-              </div>
-              <div class="mb-3">
-                <label for="last-name" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id="last-name" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="email" />
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="col-form-label">Phone:</label>
-                <input type="tel" class="form-control" id="phone" />
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Submit</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- Footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -358,15 +332,5 @@
     ></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
 
-    <script>
-      mapboxgl.accessToken =
-        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-71.060982, 42.35725],
-        zoom: 18,
-      })
-    </script>
   </body>
 </html>

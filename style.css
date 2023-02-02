@@ -21,3 +21,6 @@ body::before {
   height: 400px;
   background-size: cover;
 }
+#who, #why, #instructors{
+  background-color: black;
+}
