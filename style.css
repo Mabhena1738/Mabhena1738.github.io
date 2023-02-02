@@ -20,7 +20,11 @@ body::before {
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
+  background-image: src="img/pic3.jpeg";
 }
 #who, #why, #instructors, #services{
   background-color: black;
+}
+h2{
+  font-size: 60px;
 }
